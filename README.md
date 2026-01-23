@@ -50,7 +50,7 @@ To add a new post:
 ### 3. Adding Showcases
 Showcases are managed in a data file.
 
-1.  Go to `src/pages/Showcases/data.js`.
+1.  Go to `src/data/showcaseData.js`.
 2.  You will see a list of items. To add a new one, copy an existing block (everything between `{` and `},`) and paste it as a new item.
 3.  Update the text fields (`companyName`, `whatIs`, etc.).
 4.  **Images**: Upload new images to `src/assets` and reference the filename in the `image` field.
