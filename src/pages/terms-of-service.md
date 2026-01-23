@@ -26,4 +26,4 @@ hide_table_of_contents: true
 
 ## Contact Us
 
-**If you have any questions or concerns about these Terms, please contact us at info@docwire.io.**
+**If you have any questions or concerns about these Terms, please contact us at [info@docwire.io](mailto:info@docwire.io).**

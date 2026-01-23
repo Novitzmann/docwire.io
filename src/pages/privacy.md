@@ -30,4 +30,4 @@ We may update this privacy policy from time to time. We will notify you of any c
 
 ## Contact us
 
-If you have any questions or concerns about our privacy policy, please contact us at info@docwire.io. At DocWire, we understand the importance of managing the personal information we collect from you. As per the laws of your country, you may have the right to access, update, or delete the data we have collected from you. To exercise these rights, please reach out to us at info@docwire.io. Our team will respond to your request within 30 days.
+If you have any questions or concerns about our privacy policy, please contact us at [info@docwire.io](mailto:info@docwire.io). At DocWire, we understand the importance of managing the personal information we collect from you. As per the laws of your country, you may have the right to access, update, or delete the data we have collected from you. To exercise these rights, please reach out to us at [info@docwire.io](mailto:info@docwire.io). Our team will respond to your request within 30 days.
