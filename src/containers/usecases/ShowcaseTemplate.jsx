@@ -22,10 +22,10 @@ function ShowcaseTemplate({ linkName }) {
                     <h1>{showcase.companyName}</h1>
                     <h2>{showcase.subtitle}</h2>
                     <div className="docwire__showcase-template_header-buttons">
-                        <Link to={showcase.website} className="link" target="_blank" rel="noopener noreferrer">
+                        <a href={showcase.website} className="link" target="_blank" rel="noopener noreferrer">
                             <div>Website</div>
                             <HiExternalLink className="icon"/>
-                        </Link>
+                        </a>
                         <Link to="/ContactUs" className="cta">Get licence</Link>
                     </div>
                 </div>
