@@ -225,20 +225,18 @@
         width: 90vw;
         flex-direction: column-reverse;
         margin-bottom: 5vh;
-
-        .docwire__info-intro_section2-text {
-            width: 100%;
-            align-self: auto;
-            align-items: center;
-            padding-right: 0;
-            display: flex;
-            max-width: 100%;
-            flex-direction: column;
-
-            .docwire__info-top {
-                margin-bottom: 30px;
-            }
-        }
+    }
+    .docwire__info-intro_section2 .docwire__info-intro_section2-text {
+        width: 100%;
+        align-self: auto;
+        align-items: center;
+        padding-right: 0;
+        display: flex;
+        max-width: 100%;
+        flex-direction: column;
+    }
+    .docwire__info-intro_section2 .docwire__info-intro_section2-text .docwire__info-top {
+        margin-bottom: 30px;
     }
 
     .docwire__info-bottom {

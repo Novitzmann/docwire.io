@@ -1,6 +1,6 @@
 import './form.css'
 import {useState} from "react";
-import emailjs from 'emailjs-com'
+import emailjs from '@emailjs/browser'
 
 function Form() {
     const [formValues, setFormValues] = useState({

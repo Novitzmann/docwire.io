@@ -264,13 +264,11 @@
 
 @media screen and (max-width: 479px) {
     .docwire__showcase-template_header h1 {
-        h1 {
-            font-size: 42px;
-        }
+        font-size: 42px;
+    }
 
-        h2 {
-            font-size: 16px;
-        }
+    .docwire__showcase-template_header h2 {
+        font-size: 16px;
     }
 
     .docwire__showcase-template_header-buttons {
