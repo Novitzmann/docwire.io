@@ -136,6 +136,7 @@
     padding: 20px;
     display: flex;
     position: sticky;
+    top: 20px;
 }
 
 .docwire__showcase-template_content-left .top_left img {
