@@ -7,6 +7,9 @@ import {HiExternalLink, HiArrowRight} from "react-icons/hi";
 import {CTAcontact} from "../index";
 import {data} from "../../data/showcaseData";
 
+// Use require.context to automatically import and map all images in the assets folder.
+const assets = require.context('../../assets', false, /\.(png|jpe?g|svg|gif|webp)$/i);
+
 function ShowcaseTemplate({ linkName }) {
     const params = useParams();
     const link = linkName || params.link;
@@ -15,6 +18,11 @@ function ShowcaseTemplate({ linkName }) {
     if (showcase === undefined) {
         return <Redirect to="/404"/>
     }
+
+    // Resolve the image from the context. Handles both ES Module and CommonJS exports.
+    const imageModule = assets(`./${showcase.image}`);
+    const imageSrc = imageModule.default || imageModule;
+
     return (
         <Layout title={showcase.companyName}>
             <div className="docwire__showcase-template">
@@ -32,7 +40,7 @@ function ShowcaseTemplate({ linkName }) {
                 <div className="docwire__showcase-template_content">
                     <div className="docwire__showcase-template_content-left">
                         <div className="top_left">
-                            <img src={require(`../../assets/${showcase.image}`)} alt={showcase.companyName}/>
+                            <img src={imageSrc} alt={showcase.companyName}/>
                             <p>{showcase.whoWeAre}</p>
                         </div>
                         <Link to="/showcases">
