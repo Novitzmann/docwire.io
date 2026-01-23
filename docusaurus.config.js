@@ -41,11 +41,7 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: './sidebars.js',
-          editUrl:
-            `https://github.com/${organizationName}/${projectName}/tree/${currentBranch}/`,
-        },
+        docs: false,
         blog: {
           showReadingTime: true,
           editUrl:
@@ -70,8 +66,7 @@ const config = {
         },
         items: [
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            href: 'https://docwire.readthedocs.io/',
             position: 'left',
             label: 'Docs',
           },
