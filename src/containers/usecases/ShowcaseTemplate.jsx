@@ -2,7 +2,7 @@ import './showcaseTemplate.css'
 import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
-import {Redirect, useParams} from "@docusaurus/router";
+import {Redirect} from "@docusaurus/router";
 import {HiExternalLink, HiArrowRight} from "react-icons/hi";
 import {CTAcontact} from "../index";
 import {data} from "../../data/showcaseData";
@@ -10,8 +10,9 @@ import {data} from "../../data/showcaseData";
 // Use require.context to automatically import and map all images in the assets folder.
 const assets = require.context('../../assets', false, /\.(png|jpe?g|svg|gif|webp)$/i);
 
-function ShowcaseTemplate({ linkName }) {
-    const params = useParams();
+function ShowcaseTemplate(props) {
+    const { linkName } = props;
+    const params = props.match ? props.match.params : {};
     const link = linkName || params.link;
 
     const showcase = data.find((show) => show.linkName === link)
