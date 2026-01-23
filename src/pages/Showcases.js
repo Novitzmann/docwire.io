@@ -1,14 +1,14 @@
-import {Footer, Nav, UseCases,} from "../containers";
+import React from 'react';
+import Layout from '@theme/Layout';
+import {UseCases} from "../containers";
 
-function Showcases() {
-    document.title = "Showcases | Docwire"
-    return (
-        <div>
-            <Nav/>
-            <UseCases/>
-            <Footer/>
-        </div>
-    )
+export default function Showcases() {
+  return (
+    <Layout
+      title="Showcases">
+      <main>
+        <UseCases />
+      </main>
+    </Layout>
+  );
 }
-
-export default Showcases;

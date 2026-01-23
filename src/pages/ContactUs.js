@@ -1,14 +1,14 @@
-import {Nav, Contact, Footer} from "../containers";
+import React from 'react';
+import Layout from '@theme/Layout';
+import {Contact} from "../containers";
 
-function ContactUs() {
-    document.title = "Contact Us | Docwire"
-    return (
-        <div>
-            <Nav />
-            <Contact />
-            <Footer />
-        </div>
-    )
+export default function ContactUs() {
+  return (
+    <Layout
+      title="Contact Us">
+      <main>
+        <Contact />
+      </main>
+    </Layout>
+  );
 }
-
-export default ContactUs;

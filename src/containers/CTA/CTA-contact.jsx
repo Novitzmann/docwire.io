@@ -1,6 +1,6 @@
 import './cta.css';
 import React from "react";
-import {Link} from "react-router-dom";
+import Link from '@docusaurus/Link';
 
 function CTAcontact() {
     return (
@@ -14,7 +14,7 @@ function CTAcontact() {
                     </div>
                 </div>
                 <div className="docwire__cta-button">
-                    <Link to="/contact-us">Get licence</Link>
+                    <Link to="/ContactUs">Get licence</Link>
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 import './usecases.css';
 import React from "react";
 import {data} from '../../pages/Showcases/data'
-import {Link} from "react-router-dom";
+import Link from '@docusaurus/Link';
 
 function UseCases() {
     return (
