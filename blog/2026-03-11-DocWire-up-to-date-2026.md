@@ -1,5 +1,5 @@
 ---
-title: DocWire 2026 update
+title: 'DocWire: A 2025 Retrospective'
 authors: krzysztof
 tags: [news, update]
 ---
